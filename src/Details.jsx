@@ -53,7 +53,7 @@ const Details = ({ config }) => {
                         {comic && <StaticPoster comic={comic}></StaticPoster>}
                         {comic && <p className="font-bold text-left text-white">${comic?.prices?.[0]?.price || 'None'}</p>}
                     </div>
-                    <div className="h-96 w-4/5 md:w-2/4 md:ml-4 flex flex-col">
+                    <div className="h-fit md:h-96 w-4/5 md:w-2/4 md:ml-4 flex flex-col">
                         <p className="h-fit w-full text-white text-left text-2xl font-extrabold border-l-white border-l-4 pl-2 mt-4 mb-2">{comic?.title || '. . .'}</p>
                         {comic && (() => {
                             const creators = comic.creators.items.map(creator => creator.name);
@@ -63,7 +63,7 @@ const Details = ({ config }) => {
                                 </p>
                             );
                         })()}
-                        <div className="w-full h-full max-h-52 flex-grow-1 mt-auto">
+                        <div className="w-full h-52 md:h-full md:max-h-52 flex-grow-1 mt-auto">
                             <Carousel images={charactersImages}></Carousel>
                         </div>
                     </div>
