@@ -9,3 +9,5 @@ Snippets:
         - Set favourite star: https://uiverse.io/andrew-demchenk0/light-lionfish-40
     Details:
         - Return button: https://uiverse.io/Jedi-hongbin/modern-sloth-8
+
+API Keys are available at main.jsx/config

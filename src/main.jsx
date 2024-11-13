@@ -43,10 +43,3 @@ createRoot(document.getElementById('root')).render(
     </Routes>
   </Router>
 )
-
-/*
-Code used:
-  Loading background effect: https://uiverse.io/mrhyddenn/warm-wasp-21
-  Return button in details: https://uiverse.io/Jedi-hongbin/modern-sloth-8
-  Set favourite Poster star: https://uiverse.io/andrew-demchenk0/light-lionfish-40
-*/
