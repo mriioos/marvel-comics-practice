@@ -1,8 +1,11 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Marvel Comics Practice
+Framework: React + Vite
+Code by: Miguel Ríos Marcos
+Date: Wednesday the 13th of november, 2024
+License: GPL
+Snippets:
+    Poster: 
+        - Loading background effect: https://uiverse.io/mrhyddenn/warm-wasp-21
+        - Set favourite star: https://uiverse.io/andrew-demchenk0/light-lionfish-40
+    Details:
+        - Return button: https://uiverse.io/Jedi-hongbin/modern-sloth-8
